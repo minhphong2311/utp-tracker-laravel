@@ -1,0 +1,43 @@
+// Body
+$body-bg: #f8fafc;
+// Typography
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+.card-header.card-header-transparent {
+    background: transparent;
+    padding-bottom: 0;
+    border-bottom: 0;
+}
+.btn.btn-default {
+    background-color: #f8f9fa;
+    border-color: #ddd;
+    color: #444;
+}
+.btn.btn-default.hover,
+.btn.btn-default:active,
+.btn.btn-default:hover {
+    background-color: #e9ecef;
+    color: #2b2b2b;
+}
+.table-bordered > :not(caption) > * {
+    border-color: #dee2e6;
+}
+.pagination{
+    margin: 15px 0 0;
+}
+.page-link:focus{
+    box-shadow: none;
+}
+// .table-responsive > .table-bordered{
+//     border: 1px solid #dee2e6;
+// }
+.brand-link{
+    padding: 9px 0.5rem;
+}
+.error {
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: 80%;
+    color: #dc3545;
+}
